@@ -1,0 +1,150 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI';
+      color: #222222;
+}
+
+
+.nav {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+#logo {
+      height: 55px;
+}
+
+.nav nav {
+      padding-top: 20px;
+      align-items: center;
+      justify-content: space-around;
+      display: flex;
+      width: 650px;
+}
+
+.nav nav a {
+      text-decoration: none;
+      font-size: 16px;
+      padding-bottom: 38px;
+}
+#icon {
+      padding-top: 20px;
+}
+main {
+      padding: 60px 0;
+}
+.content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 40px;
+}
+
+#heading1 {
+      font-size: 48px;
+      font-weight: 400;
+      padding-right: 20px;
+      text-align: center;
+}
+
+.content h1 a img {
+      padding-left: 20px;
+      width: 112px;
+}
+
+.content p {
+      font-size: 24px;
+      text-align: center;
+}
+
+.section{
+      max-width: 960px;
+      margin: auto;
+}
+
+.content button {
+      color: #ffffff;
+      border: 0;
+      padding: 14px 20px;
+      font-size: 14px;
+      background-color: #00b6d1;
+      border-radius: 5px;
+      font-weight: bold;
+}
+
+.section img {
+      width: 60px;
+}
+
+.contain {
+      padding: 25px 0 40px 20px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+}
+
+#heading2 {
+      font-size: 24px;
+      font-weight: 400;
+      padding-left: 25px;
+}
+.section h3 small {
+      font-size: 14px;
+}
+
+.cards {
+      grid-gap: 2.7%;
+      display: grid;
+      grid-template-columns: repeat(3,31.3333%);
+      background-color: #ffffff;
+}
+.card {
+      background-color: #f9f9f9;
+      height: 120px;
+      text-align: center;
+      padding: 20px 14px 10px 14px;
+}
+
+.card h3 {
+      padding-bottom: 12px;
+      font-weight: 700;
+      font-size: 20px;
+}
+
+.card h3 small {
+      font-weight: 400;
+}
+
+#eng {
+      margin-top: 42px;
+}
+
+.lang {
+      margin-top: 16px;
+}
+
+.card button {
+      font-weight: 700;
+      border-radius: 5px;
+      border: 0;
+      background: #5cb85c;
+      color: #ffffff;
+      font-size: 12px;
+      padding: 10px 15px;
+      min-height: 10px;
+}
+
+
+@media screen and (max-width: 985px){
+      .cards {
+            justify-content: center;
+            grid-template-columns: 90vw;
+      }
+      .nav nav {
+            display: none;
+      }
+}
